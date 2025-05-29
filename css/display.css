@@ -1,0 +1,648 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#bg_01 {
+    background: url(../img/SVG/bg_01_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 90%;
+}
+#bg_02 {
+    background: url(../img/SVG/bg_02_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 0.5%;
+}
+#bg_03 {
+    background: url(../img/SVG/bg_03_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 100%;
+    padding-bottom: 15px;
+}
+#bg_05 {
+    background: url(../img/SVG/bg_05_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 100%;
+    padding-bottom: 20px;
+}
+#bg_06 {
+    background: url(../img/SVG/bg_06_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 100%;
+    padding-bottom: 15px;
+}
+#bg_07 {
+    background: url(../img/SVG/bg_07_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 100%;
+}
+#bg_08 {
+    background: url(../img/SVG/bg_08_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 100%;
+    padding-bottom: 20px;
+}
+#bg_09 {
+    background: url(../img/SVG/bg_09_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: 100% 72%;
+}
+#bg_hct {
+    background: url(../img/SVG/bg_hct_sp.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.mb15 {margin-bottom: 15px;}
+
+@media screen and (min-width: 767px) {
+    #bg_01 {
+        background: url(../img/SVG/bg_01.svg) no-repeat;
+        background-position: center;
+    }
+    #bg_02 {
+        background: url(../img/SVG/bg_02.svg) no-repeat;
+        background-position: center;
+    }
+    #bg_03 {
+        background: url(../img/SVG/bg_03.svg) no-repeat;
+        background-position: center;
+        padding: 75px 0;
+    }
+    #bg_04 {
+        background: url(../img/SVG/bg_04.svg) no-repeat;
+        background-position: 100% 25%;
+    }
+    #bg_05 {
+        background: url(../img/SVG/bg_05.svg) no-repeat;
+        background-position: 100% 0;
+    }
+    #bg_06 {
+        background: url(../img/SVG/bg_06.svg) no-repeat;
+        background-position: 100% 100%;
+    }
+    #bg_07 {
+        background: none;
+    }
+    #bg_08 {
+        background: url(../img/SVG/bg_08.svg) no-repeat;
+        background-position: 100% 100%;
+    }
+    #bg_09 {
+        background: url(../img/SVG/bg_09.svg) no-repeat;
+        background-position: 100% 100%;
+        padding-bottom: 50px;
+    }
+    #bg_hct {
+        background: none;
+    }
+}
+
+/* グリーンライン01 */
+.article .green_line.g01 {
+    width: 30px;
+    height: 80.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 50px;
+}
+.article .green_line.g01 span {
+    display: block;
+    background: url(../img/SVG/green_line_01_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 767px) {
+    .article .green_line.g01 {
+        margin-top: 75px;
+        left: 14rem;
+        height: 77.5%;
+    }
+    .article .green_line.g01 span {
+        background: url(../img/SVG/green_line_01.svg) no-repeat;
+        height: 118.5%;
+    }
+}
+
+/* グリーンライン02 */
+.article .green_line.g02 {
+    width: 30px;
+    height: 66.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+}
+.article .green_line.g02 span {
+    display: block;
+    background: url(../img/SVG/green_line_02_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .green_line.g02 {
+        margin-top: 100px;
+        left: 14rem;
+        height: 73.5%;
+    }
+    .article .green_line.g02 span {
+        background: url(../img/SVG/green_line_02.svg) no-repeat;
+    }
+}
+/* オレンジライン01 */
+.article .og_line.og01 {
+    width: 30px;
+    height: 74.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 120px;
+}
+.article .og_line.og01 span {
+    display: block;
+    background: url(../img/SVG/og_line_01_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .og_line.og01 {
+        margin-top: 175px;
+        left: 14rem;
+    }
+    .article .og_line.og01 span {
+        background: url(../img/SVG/og_line_01.svg) no-repeat;
+    }
+}
+/* グリーンライン03 */
+.article .green_line.g03 {
+    width: 30px;
+    height: 78.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 50px;
+}
+.article .green_line.g03 span {
+    display: block;
+    background: url(../img/SVG/green_line_03_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .green_line.g03 {
+        margin-top: 75px;
+        left: 14rem;
+        height: 85.5%;
+    }
+    .article .green_line.g03 span {
+        background: url(../img/SVG/green_line_03.svg) no-repeat;
+    }
+}
+/* オレンジライン02 */
+.article .og_line.og02 {
+    width: 30px;
+    height: 43.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 70px;
+}
+.article .og_line.og02 span {
+    display: block;
+    background: url(../img/SVG/og_line_02_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .og_line.og02 {
+        margin-top: 75px;
+        left: 14rem;
+        height: 80.5%;
+    }
+    .article .og_line.og02 span {
+        background: url(../img/SVG/og_line_02.svg) no-repeat;
+    }
+}
+/* オレンジライン03 */
+.article .og_line.og03 {
+    width: 30px;
+    height: 53.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 65px;
+}
+.article .og_line.og03 span {
+    display: block;
+    background: url(../img/SVG/og_line_03_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .og_line.og03 {
+        margin-top: 95px;
+        left: 14rem;
+        height: 84.5%;    
+    }
+    .article .og_line.og03 span {
+        background: url(../img/SVG/og_line_03.svg) no-repeat;
+    }
+}
+/* ブルーライン01 */
+.article .blue_line.blue01 {
+    width: 30px;
+    height: 66.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+    padding-top: 35px;
+    margin-top: 47px;
+}
+.article .blue_line.blue01 span {
+    display: block;
+    background: url(../img/SVG/blue_line_01_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .blue_line.blue01 {
+        margin-top: 75px;
+        left: 14rem;
+        height: 75.5%;
+    }
+    .article .blue_line.blue01 span {
+        background: url(../img/SVG/blue_line_01.svg) no-repeat;
+    }
+}
+/* オレンジライン04 */
+.article .og_line.og04 {
+    width: 30px;
+    height: 72.5%;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+    transform: translateX(-50%);
+}
+.article .og_line.og04 span {
+    display: block;
+    background: url(../img/SVG/og_line_04_sp.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 767px) {
+    .article .og_line.og04 {
+        left: 14rem;
+        height: 66.5%;
+    }
+    .article .og_line.og04 span {
+        background: url(../img/SVG/og_line_04.svg) no-repeat;
+    }
+}
+
+/* タグ */
+.point_walk,
+.point_walk_1,
+.point_present,
+.point_active,
+.point_l_a,
+.point_none {
+	position: relative;
+}
+
+/* 散歩 */
+.point_walk::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    background: url(../img/SVG/point_walk.svg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+/* 散策・お買い物 */
+.point_walk_1::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    background: url(../img/SVG/point_walk_1.svg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+/* お土産 */
+.point_present::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    background: url(../img/SVG/point_present.svg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+/* 体験 */
+.point_active::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    background: url(../img/SVG/point_active.svg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+/* ランチ・体験 */
+.point_l_a::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    background: url(../img/SVG/point_l_a.svg) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (min-width: 767px) {
+    .point_walk::before,
+    .point_walk_1::before,
+    .point_present::before,
+    .point_active::before,
+    .point_l_a::before,
+    .point_none::before {
+        top: 30px;
+        left: 36.5%;
+        height: 150px;
+    }
+}
+
+
+/* 各スポット */
+#spot1-2 {
+    position: static;
+    width: 85%;
+}
+#spot2-2 {
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+#spot3-2 {
+    position: absolute;
+    top: -2.25rem;
+    right: -3.5rem;
+    width: 45.5%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+#spot3-3 {
+    position: static;
+}
+#spot4-3 {
+    width: 80%;
+    margin: 10px auto 0;
+}
+#spot4-4 {
+    position: static;
+}
+#spot5-2 {
+    position: static;
+}
+#spot5-3 {
+    position: static;
+    width: 80%;
+    margin: 25px auto 0;
+}
+#spot6-2 {
+    position: static;
+}
+#spot6-3 {
+    position: static;
+    width: 80%;
+    margin: 25px auto 0;
+}
+#spot6-4 {
+    position: static;
+}
+#spot7-2 {
+    position: static;
+}
+#spot7-3 {
+    position: static;
+    margin: 0 auto;
+}
+#spot7-4 {
+    position: absolute;
+    top: -1.15rem;
+    right: -2.25rem;
+    width: 30.5%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+#spot8-3 {
+    position: static;
+    margin: 0 auto;
+}
+#spot9-2 {
+    width: 80%;
+}
+
+@media screen and (min-width: 767px) {
+    
+    #spot1-2 {
+        position: absolute;
+        top: 29.5rem;
+        right: 14.45rem;
+        width: 40%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot2-2 {
+        position: absolute;
+        top: 1.25rem;
+        right: -10.5rem;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot2-3 {
+        position: absolute;
+        top: 19.5rem;
+        right: -8.5rem;
+        width: 35%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot3-2 {
+        position: absolute;
+        top: -3.25rem;
+        right: 18.5rem;
+        width: 24.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot3-3 {
+        position: absolute;
+        top: 15.5rem;
+        right: -11.5rem;
+        width: 47.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot4-2 {
+        position: absolute;
+        top: 17.75rem;
+        right: 10.5rem;
+        width: 25.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot4-3 {
+        position: absolute;
+        top: 16.5rem;
+        right: -8.5rem;
+        width: 31.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot4-4 {
+        position: absolute;
+        top: 31.5rem;
+        right: -9.5rem;
+        width: 45.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot5-2 {
+        position: absolute;
+        top: 15.75rem;
+        right: 14.25rem;
+        width: 20.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot5-3 {
+        position: absolute;
+        top: 18.5rem;
+        right: -8.5rem;
+        width: 31.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot6-2 {
+        position: absolute;
+        top: 17.75rem;
+        right: 14.25rem;
+        width: 14.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot6-3 {
+        position: absolute;
+        top: 18.5rem;
+        right: -8.5rem;
+        width: 31.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot6-4 {
+        position: absolute;
+        top: 31.5rem;
+        right: -12.25rem;
+        width: 45.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot7-2 {
+        position: absolute;
+        top: 21.75rem;
+        right: 9.25rem;
+        width: 27.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot7-3 {
+        position: absolute;
+        top: 18.5rem;
+        right: -8.5rem;
+        width: 31.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot7-4 {
+        position: absolute;
+        top: -1.5rem;
+        right: 23.75rem;
+        width: 15.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot8-2 {
+        position: absolute;
+        top: 20.25rem;
+        right: 7.25rem;
+        width: 40.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot8-3 {
+        position: absolute;
+        top: 25.75rem;
+        right: -8.5rem;
+        width: 31.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+    #spot8-4 {
+        position: absolute;
+        top: 14.5rem;
+        right: -7.5rem;
+        width: 28.5%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+}
